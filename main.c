@@ -1,9 +1,7 @@
 #include <stdio.h>
- #include "support.cpp"
-int count ;
+ #include "support.c"
 extern void write_extern();
  
 main() {
-   count = 5;
    write_extern();
 }
